@@ -8,7 +8,7 @@
             {
                 position:relative;
                 top:80px;
-                left:480px;
+                left:450px;
                 width:380px;
                height:400px;
                line-height:2;
@@ -58,7 +58,7 @@
 
     </head>
     <body >
-        <form action="http://localhost/app/Registration_Form/Reg_valid.php" onsubmit="return validation()" method="post"  id="header">
+        <form action="http://localhost/app/GitHub/PHP-projects/Registration_Form/Reg_valid.php" onsubmit="return validation()" method="post"  id="header">
             
                 <h2 style="color:red"> ___________Registration__________</h2>
           
@@ -87,7 +87,7 @@
 
             
         </form>
-        <h3 style="position:relative; top:70px; left:510px">Already an user <a href="http://localhost/app/Registration_Form/login.php">click here</a> to login</h3>
+        <h3 style="position:relative; top:70px; left:510px">Already an user <a href="http://localhost/app/GitHub/PHP-projects/Registration_Form/login.php">click here</a> to login</h3>
 
         
       

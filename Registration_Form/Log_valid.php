@@ -10,9 +10,9 @@
  if($num==1)
  {
    $_SESSION['name']=$name;
-   header('location:http://localhost/app/Registration_Form/home.php');;
+   header('location:http://localhost/app/GitHub/PHP-projects/Registration_Form/home.php');;
  }
  else{
-     header('location:http://localhost/app/Registration_Form/login.php');;
+     header('location:http://localhost/app/GitHub/PHP-projects/Registration_Form/login.php');;
  }
  ?>

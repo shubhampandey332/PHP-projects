@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['name']))
 {
-    header('location:http://localhost/app/Registration_Form/login.php');
+    header('location:http://localhost/app/GitHub/PHP-projects/Registration_Form/login.php');
 }
 ?>
 <!Doctype html>
@@ -11,6 +11,6 @@ if(!isset($_SESSION['name']))
 </head>
 <body>
 <h2>Hello <?php echo $_SESSION['name'];?></h2>
-<a href="http://localhost/app/Registration_Form/logout.php"><button>Logout</button></a>
+<a href="http://localhost/app/GitHub/PHP-projects/Registration_Form/logout.php"><button>Logout</button></a>
 </body>
 </html>

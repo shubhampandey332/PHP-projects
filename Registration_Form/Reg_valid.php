@@ -26,11 +26,11 @@ session_start();
         if($num==1)
         {
              $_SESSION['name']=$name;
-             header("location:http://localhost/app/Registration_Form/home.php");
+             header("location:http://localhost/app/GitHub/PHP-projects/Registration_Form/home.php");
         }
         else{
                 echo "Something is wrong...Please try again";
-                header("localhost:http://localhost/app/Registration_Form/Registration.php");
+                header("localhost:http://localhost/app/GitHub/PHP-projects/Registration_Form/Registration.php");
         }
 
         
